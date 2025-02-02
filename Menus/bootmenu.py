@@ -11,7 +11,7 @@ def draw_menu(stdscr):
     curses.init_pair(3, curses.COLOR_BLACK, curses.COLOR_CYAN)  # Highlighted option
     curses.init_pair(4, curses.COLOR_BLACK, curses.COLOR_BLACK)  # Shadow
 
-    options = ["ANDROID", "FASTBOOT", "RECOVERY", "EXIT"]
+    options = ["BOOT", "CONSOLE", "REBOOT", "EXIT"]
     current_selection = 0
 
     while True:
